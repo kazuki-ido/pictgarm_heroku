@@ -76,3 +76,5 @@ gem 'bcrypt'
 gem 'bootstrap-sass'
 
 gem "carrierwave"
+
+gem "activesupport", ">= 5.2.4.3"

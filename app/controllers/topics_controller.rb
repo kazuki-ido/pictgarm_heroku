@@ -4,6 +4,9 @@ class TopicsController < ApplicationController
   
   def index
     @topics = Topic.all.includes(:favorite_users)
+    if !topic.favorite_users.include?(current_user)
+      
+    end
   end
   
   def new
