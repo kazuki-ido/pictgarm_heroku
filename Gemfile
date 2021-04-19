@@ -80,3 +80,5 @@ gem "carrierwave"
 gem "activesupport", ">= 5.2.4.3"
 
 gem 'dotenv-rails'
+
+gem 'fog-aws'
